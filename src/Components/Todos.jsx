@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { removeTodo } from "../Features/Todo/TodoSlice/TodoSlice";
+import React from "react";
 
 function Todos() {
     const todos = useSelector((state) => state.todos);
@@ -16,7 +17,7 @@ function Todos() {
             <ul className="list-none">
                 {todos.map((todo) => (
                     <li
-                        className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded-xl w-1/2 m-auto "
+                        className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded-xl w-1/2 m-auto"
                         key={todo.id}
                     >
                         <div className="text-white">{todo.text}</div>
