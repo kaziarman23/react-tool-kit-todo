@@ -1,13 +1,13 @@
-
+import AddTodo from "./Components/AddTodo";
+import Todos from "./Components/Todos";
 
 function App() {
-  
-
-  return (
-    <>
-     <h1>hello</h1>
-    </>
-  )
+    return (
+        <>
+          <AddTodo/>
+          <Todos/>
+        </>
+    );
 }
 
-export default App
+export default App;
