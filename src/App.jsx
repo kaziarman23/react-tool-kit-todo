@@ -1,11 +1,11 @@
 import AddTodo from "./Components/AddTodo";
-import Todos from "./Components/Todos";
+import AllTodos from "./Components/AllTodos";
 
 function App() {
     return (
         <>
           <AddTodo/>
-          <Todos/>
+          <AllTodos/>
         </>
     );
 }

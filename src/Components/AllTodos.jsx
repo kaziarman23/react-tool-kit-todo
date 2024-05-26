@@ -1,13 +1,9 @@
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-<<<<<<< Updated upstream
 import { removeTodo, updateTodo } from "../Features/Todo/TodoSlice/TodoSlice";
-=======
-import { removeTodo } from "../Features/Todo/TodoSlice/TodoSlice";
 
->>>>>>> Stashed changes
 
-function Todos() {
+function AllTodos() {
     const todos = useSelector((state) => state.todos);
 
     const dispatch = useDispatch();
@@ -77,4 +73,4 @@ function Todos() {
     );
 }
 
-export default Todos;
+export default AllTodos;
