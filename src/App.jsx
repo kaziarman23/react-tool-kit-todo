@@ -4,8 +4,8 @@ import AllTodos from "./Components/AllTodos";
 function App() {
     return (
         <>
-          <AddTodo/>
-          <AllTodos/>
+            <AddTodo />
+            <AllTodos />
         </>
     );
 }
